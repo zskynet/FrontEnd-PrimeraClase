@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -18,7 +16,8 @@
 		</div>
 		<div class="titular">
 			<h1 class="titulo">
-				Puls4: Comunidad profesional de gente atractiva			</h1>
+				Puls4: Comunidad profesional de gente atractiva	
+			</h1>
 			<div>	
 				<a class="filtro" href="#">
 					Stylus
@@ -64,12 +63,11 @@
 		<p>
 			<label for="tag">Tag</label>
 			<input id="tag" type="text" name="tag"></p>
-			<input value="publicar" type="submit" ></p>
-			
+			<input value="publicar" type="submit" />			
 	</form>
 	<section class="posts">
 		<article class="post">
-			<div class="description">
+			<div class="descripcion">
 				<figure class="imagen">
 					<img src="imagenes/foto.jpg" />
 				</figure>
@@ -91,13 +89,15 @@
 					<a class="down" href="#"></a>
 				</div>
 				<div class="datos">
-					<a class="comentarios" href="#">10</a>
+					<a class="comentarios" href="#">
+						10
+					</a>
 					<a class="estrellita" href="#"></a>
 				</div>
 			</div>
 		</article>
 		<article class="post">
-			<div class="description">
+			<div class="descripcion">
 				<figure class="imagen">
 					<img src="imagenes/foto.jpg" />
 				</figure>
@@ -119,13 +119,15 @@
 					<a class="down" href="#"></a>
 				</div>
 				<div class="datos">
-					<a class="comentarios" href="#">10</a>
+					<a class="comentarios" href="#">
+						10
+					</a>
 					<a class="estrellita" href="#"></a>
 				</div>
 			</div>
 		</article>
 		<article class="post">
-			<div class="description">
+			<div class="descripcion">
 				<figure class="imagen">
 					<img src="imagenes/foto.jpg" />
 				</figure>
@@ -147,13 +149,15 @@
 					<a class="down" href="#"></a>
 				</div>
 				<div class="datos">
-					<a class="comentarios" href="#">10</a>
+					<a class="comentarios" href="#">
+						10
+					</a>
 					<a class="estrellita" href="#"></a>
 				</div>
 			</div>
 		</article>
 		<article class="post">
-			<div class="description">
+			<div class="descripcion">
 				<figure class="imagen">
 					<img src="imagenes/foto.jpg" />
 				</figure>
@@ -175,7 +179,9 @@
 					<a class="down" href="#"></a>
 				</div>
 				<div class="datos">
-					<a class="comentarios" href="#">10</a>
+					<a class="comentarios" href="#">
+						10
+					</a>
 					<a class="estrellita" href="#"></a>
 				</div>
 			</div>
@@ -183,7 +189,7 @@
 	</section>
 	<footer>
 		<h3>
-			<strong>Powered by Platzy</strong>
+			<strong>Powered by Platzi</strong>
 			<span class="mejor">
 				mejorando.la 2013
 			</span>
@@ -236,10 +242,7 @@
 				</div> \
 			</article>';
 
-			$('.posts').prepend($(template).fadeIn(function()
-				{
-					$(this).css('display','inline-block');
-			}));
+			$('.posts').prepend($(template).fadeIn());
 			$('input[type=text]').val('');
 			$('form').slideUp();
 		}
@@ -266,7 +269,6 @@
 				down : function() {
 					return --contador;
 				}
-
 			};
 		};
 
@@ -289,3 +291,11 @@
 	</script>
 </body>
 </html>
+
+
+
+
+
+
+
+
